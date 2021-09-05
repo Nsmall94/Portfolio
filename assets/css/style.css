@@ -55,7 +55,7 @@ body {
     padding: 80px 20px;
     width: 80%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
     flex: 1 30%;
@@ -85,22 +85,56 @@ body {
     justify-content: space-between;
 }
 
+.Work-projects h2{
+  font-size: 20px;
+    font-size: medium;
+    line-height: 2;
+    color: black;
+    text-align:center;;
+    flex: 2 20%;
+}
+
 .Contact-Me {
     margin: 20px 40px;
     padding: 80px 20px;
     width: 80%;
-    border-left: 6px solid #eb0505;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
+    flex: 1 30%;
+    font-size: x-large;
+    border-left: 6px solid #eb0505;
 }
 
-  .Contact-Me-Info p {
+  .Contact-Me-Fax p {
     font-size: 20px;
-    font-weight: bold;
-    line-height: 1.5;
-    color: #160a01;
+     font-size: medium;
+     line-height: 2;
+    color: black;
+    text-align:center;;
+    flex: 2 70%;
     
 }
 
+
+@media only screen and (max-width: 1200px) {
+    body {
+      background-color: rgba(71, 67, 67, 0.288);
+    }
+  }
+  @media only screen and (max-width: 1600px) {
+    body {
+      background-color: rgba(160, 20, 20, 0.288);
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    body {
+      background-color: rgba(71, 67, 67, 0.288);
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: rgba(71, 67, 67, 0.288);
+    }
+  }
