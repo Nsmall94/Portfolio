@@ -41,3 +41,66 @@ body {
     margin-left: 25px;
 }
 
+.hero {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/mountains.png");
+    background-size: cover;
+    background-position: center;
+}    
+
+.About-Me{
+    margin: 20px 40px;
+    padding: 80px 20px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1 30%;
+    font-size: x-large;
+}    
+
+.About-Me-Info p {
+     font-size: 20px;
+     font-size: large;
+     line-height: 2;
+    color: black;
+    text-align:center;
+    border-left: 6px solid #eb0505;
+    flex: 2 70%;
+        
+    
+}
+
+.Work {
+    margin: 20px 40px;
+    padding: 80px 20px;
+    width: 80%;
+    border-left: 6px solid #eb0505;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Contact-Me {
+    margin: 20px 40px;
+    padding: 80px 20px;
+    width: 80%;
+    border-left: 6px solid #eb0505;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+  .Contact-Me-Info p {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #160a01;
+    
+}
+
